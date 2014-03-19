@@ -1,0 +1,252 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'load-grunt-tasks' ]
+2 info using npm@1.2.30
+3 info using node@v0.10.11
+4 verbose read json /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/package.json
+5 warn package.json FeedHenrySenchaBuild@0.1.0 No repository field.
+6 verbose read json /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/fh-db/package.json
+7 verbose read json /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/grunt/package.json
+8 verbose read json /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/grunt-contrib-copy/package.json
+9 verbose read json /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/grunt-exec/package.json
+10 verbose from cache /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'load-grunt-tasks', null ]
+13 verbose cache add name=undefined spec="load-grunt-tasks" args=["load-grunt-tasks",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'load-grunt-tasks',
+14 verbose parsed url   path: 'load-grunt-tasks',
+14 verbose parsed url   href: 'load-grunt-tasks' }
+15 silly lockFile 944ab2e0-load-grunt-tasks load-grunt-tasks
+16 verbose lock load-grunt-tasks /Users/bmackey/.npm/944ab2e0-load-grunt-tasks.lock
+17 silly lockFile 944ab2e0-load-grunt-tasks load-grunt-tasks
+18 silly lockFile 944ab2e0-load-grunt-tasks load-grunt-tasks
+19 verbose addNamed [ 'load-grunt-tasks', '' ]
+20 verbose addNamed [ null, '' ]
+21 silly lockFile 13a274a3-load-grunt-tasks load-grunt-tasks@
+22 verbose lock load-grunt-tasks@ /Users/bmackey/.npm/13a274a3-load-grunt-tasks.lock
+23 silly addNameRange { name: 'load-grunt-tasks', range: '', hasData: false }
+24 verbose url raw load-grunt-tasks
+25 verbose url resolving [ 'https://registry.npmjs.org/', './load-grunt-tasks' ]
+26 verbose url resolved https://registry.npmjs.org/load-grunt-tasks
+27 info trying registry request attempt 1 at 19:10:29
+28 verbose etag "BHQ4IJJZF9RIIXVUYFAPNBG3P"
+29 http GET https://registry.npmjs.org/load-grunt-tasks
+30 http 304 https://registry.npmjs.org/load-grunt-tasks
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Wed, 19 Mar 2014 19:10:31 GMT',
+31 silly registry.get     server: 'Apache',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     'last-modified': 'Wed, 19 Mar 2014 19:10:31 GMT',
+31 silly registry.get     'cache-control': 'max-age=1',
+31 silly registry.get     etag: '"BHQ4IJJZF9RIIXVUYFAPNBG3P"',
+31 silly registry.get     'x-served-by': 'cache-am77-AMS',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1395256231.786010504,VS0,VE191',
+31 silly registry.get     vary: 'Accept',
+31 silly registry.get     'content-length': '0',
+31 silly registry.get     'keep-alive': 'timeout=10, max=50',
+31 silly registry.get     connection: 'Keep-Alive' } ]
+32 verbose etag load-grunt-tasks from cache
+33 silly addNameRange number 2 { name: 'load-grunt-tasks', range: '', hasData: true }
+34 silly addNameRange versions [ 'load-grunt-tasks',
+34 silly addNameRange   [ '0.1.0',
+34 silly addNameRange     '0.1.1',
+34 silly addNameRange     '0.1.2',
+34 silly addNameRange     '0.1.3',
+34 silly addNameRange     '0.2.0',
+34 silly addNameRange     '0.2.1',
+34 silly addNameRange     '0.3.0',
+34 silly addNameRange     '0.4.0' ] ]
+35 verbose addNamed [ 'load-grunt-tasks', '0.4.0' ]
+36 verbose addNamed [ '0.4.0', '0.4.0' ]
+37 silly lockFile e083907d-load-grunt-tasks-0-4-0 load-grunt-tasks@0.4.0
+38 verbose lock load-grunt-tasks@0.4.0 /Users/bmackey/.npm/e083907d-load-grunt-tasks-0-4-0.lock
+39 verbose read json /Users/bmackey/.npm/load-grunt-tasks/0.4.0/package/package.json
+40 silly lockFile e083907d-load-grunt-tasks-0-4-0 load-grunt-tasks@0.4.0
+41 silly lockFile e083907d-load-grunt-tasks-0-4-0 load-grunt-tasks@0.4.0
+42 silly lockFile 13a274a3-load-grunt-tasks load-grunt-tasks@
+43 silly lockFile 13a274a3-load-grunt-tasks load-grunt-tasks@
+44 silly resolved [ { name: 'load-grunt-tasks',
+44 silly resolved     version: '0.4.0',
+44 silly resolved     description: 'Load multiple grunt tasks using globbing patterns',
+44 silly resolved     keywords:
+44 silly resolved      [ 'grunt',
+44 silly resolved        'load',
+44 silly resolved        'require',
+44 silly resolved        'tasks',
+44 silly resolved        'glob',
+44 silly resolved        'pattern',
+44 silly resolved        'match',
+44 silly resolved        'matchdep',
+44 silly resolved        'dependencies' ],
+44 silly resolved     license: 'MIT',
+44 silly resolved     author:
+44 silly resolved      { name: 'Sindre Sorhus',
+44 silly resolved        email: 'sindresorhus@gmail.com',
+44 silly resolved        url: 'http://sindresorhus.com' },
+44 silly resolved     files: [ 'load-grunt-tasks.js' ],
+44 silly resolved     main: 'load-grunt-tasks',
+44 silly resolved     repository: { type: 'git', url: 'sindresorhus/load-grunt-tasks' },
+44 silly resolved     scripts: { test: 'grunt' },
+44 silly resolved     dependencies: { 'findup-sync': '^0.1.2', multimatch: '^0.1.0' },
+44 silly resolved     devDependencies:
+44 silly resolved      { grunt: '^0.4.2',
+44 silly resolved        'grunt-cli': '^0.1.12',
+44 silly resolved        'grunt-svgmin': '^0.3.0' },
+44 silly resolved     engines: { node: '>=0.10.0' },
+44 silly resolved     readme: '# load-grunt-tasks [![Build Status](https://secure.travis-ci.org/sindresorhus/load-grunt-tasks.png?branch=master)](http://travis-ci.org/sindresorhus/load-grunt-tasks) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)\n\n> Load multiple grunt tasks using globbing patterns\n\nUsually you would have to load each task one by one, which is unnecessarily cumbersome.\n\nThis module will read the `dependencies`/`devDependencies`/`peerDependencies` in your package.json and load grunt tasks that match the provided patterns.\n\n**Note the new argument signature as of 0.2.0.**\n\n\n#### Before\n\n```js\ngrunt.loadNpmTasks(\'grunt-shell\');\ngrunt.loadNpmTasks(\'grunt-sass\');\ngrunt.loadNpmTasks(\'grunt-recess\');\ngrunt.loadNpmTasks(\'grunt-sizediff\');\ngrunt.loadNpmTasks(\'grunt-svgmin\');\ngrunt.loadNpmTasks(\'grunt-styl\');\ngrunt.loadNpmTasks(\'grunt-php\');\ngrunt.loadNpmTasks(\'grunt-eslint\');\ngrunt.loadNpmTasks(\'grunt-concurrent\');\ngrunt.loadNpmTasks(\'grunt-bower-requirejs\');\n```\n\n#### After\n\n```js\nrequire(\'load-grunt-tasks\')(grunt);\n```\n\n\n## Install\n\nInstall with [npm](https://npmjs.org/package/load-grunt-tasks): `npm install --save-dev load-grunt-tasks`\n\n\n## Example config\n\n```js\n// Gruntfile.js\nmodule.exports = function (grunt) {\n\t// load all grunt tasks matching the `grunt-*` pattern\n\trequire(\'load-grunt-tasks\')(grunt);\n\n\tgrunt.initConfig({});\n\tgrunt.registerTask(\'default\', []);\n}\n```\n\n\n## Usage examples\n\n### Load all grunt tasks\n\n```js\nrequire(\'load-grunt-tasks\')(grunt);\n```\n\nEquivalent to:\n\n```js\nrequire(\'load-grunt-tasks\')(grunt, {pattern: \'grunt-*\'});\n```\n\n### Load all grunt-contrib tasks\n\n```js\nrequire(\'load-grunt-tasks\')(grunt, {pattern: \'grunt-contrib-*\'});\n```\n\n### Load all grunt-contrib tasks and another non-contrib task\n\n```js\nrequire(\'load-grunt-tasks\')(grunt, {pattern: [\'grunt-contrib-*\', \'grunt-shell\']});\n```\n\n### Load all grunt-contrib tasks excluding one\n\nYou can exclude tasks using the negate `!` globbing pattern:\n\n```js\nrequire(\'load-grunt-tasks\')(grunt, {pattern: [\'grunt-contrib-*\', \'!grunt-contrib-coffee\']});\n```\n\n### Set custom path to package.json\n\n```js\nrequire(\'load-grunt-tasks\')(grunt, {config: \'../package\'});\n```\n\n### Only load from `devDependencies`\n\n```js\nrequire(\'load-grunt-tasks\')(grunt, {scope: \'devDependencies\'});\n```\n\n### Only load from `devDependencies` and `dependencies`\n\n```js\nrequire(\'load-grunt-tasks\')(grunt, {scope: [\'devDependencies\', \'dependencies\']});\n```\n\n### All options in use\n\n```js\nrequire(\'load-grunt-tasks\')(grunt, {\n\tpattern: \'grunt-contrib-*\',\n\tconfig: \'../package.json\',\n\tscope: \'devDependencies\'\n});\n```\n\n\n## Options\n\n### pattern\n\nType: `String|Array`  \nDefault: `\'grunt-*\'` ([globbing pattern](https://github.com/isaacs/minimatch))\n\n### config\n\nType: `String|Object`  \nDefault: Path to nearest package.json\n\n### scope\n\nType: `String|Array`  \nDefault: `[\'dependencies\', \'devDependencies\', \'peerDependencies\']`\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+44 silly resolved     readmeFilename: 'readme.md',
+44 silly resolved     _id: 'load-grunt-tasks@0.4.0',
+44 silly resolved     _from: 'load-grunt-tasks@' } ]
+45 info install load-grunt-tasks@0.4.0 into /Users/bmackey/college/Project/App/FeedHenrySenchaBuild
+46 info installOne load-grunt-tasks@0.4.0
+47 verbose from cache /Users/bmackey/.npm/load-grunt-tasks/0.4.0/package/package.json
+48 info /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks unbuild
+49 verbose read json /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks/package.json
+50 verbose tar unpack /Users/bmackey/.npm/load-grunt-tasks/0.4.0/package.tgz
+51 silly lockFile c5dc3181-ld-node-modules-load-grunt-tasks tar:///Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks
+52 verbose lock tar:///Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks /Users/bmackey/.npm/c5dc3181-ld-node-modules-load-grunt-tasks.lock
+53 silly lockFile f7592fb6-ad-grunt-tasks-0-4-0-package-tgz tar:///Users/bmackey/.npm/load-grunt-tasks/0.4.0/package.tgz
+54 verbose lock tar:///Users/bmackey/.npm/load-grunt-tasks/0.4.0/package.tgz /Users/bmackey/.npm/f7592fb6-ad-grunt-tasks-0-4-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry load-grunt-tasks.js
+58 silly gunzTarPerm extractEntry readme.md
+59 verbose read json /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks/package.json
+60 silly lockFile c5dc3181-ld-node-modules-load-grunt-tasks tar:///Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks
+61 silly lockFile c5dc3181-ld-node-modules-load-grunt-tasks tar:///Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks
+62 silly lockFile f7592fb6-ad-grunt-tasks-0-4-0-package-tgz tar:///Users/bmackey/.npm/load-grunt-tasks/0.4.0/package.tgz
+63 silly lockFile f7592fb6-ad-grunt-tasks-0-4-0-package-tgz tar:///Users/bmackey/.npm/load-grunt-tasks/0.4.0/package.tgz
+64 info preinstall load-grunt-tasks@0.4.0
+65 verbose from cache /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks/package.json
+66 verbose readDependencies using package.json deps
+67 verbose from cache /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks/package.json
+68 verbose readDependencies using package.json deps
+69 verbose cache add [ 'findup-sync@^0.1.2', null ]
+70 verbose cache add name=undefined spec="findup-sync@^0.1.2" args=["findup-sync@^0.1.2",null]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'findup-sync@^0.1.2',
+71 verbose parsed url   path: 'findup-sync@^0.1.2',
+71 verbose parsed url   href: 'findup-sync@^0.1.2' }
+72 verbose cache add name="findup-sync" spec="^0.1.2" args=["findup-sync","^0.1.2"]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: '^0.1.2',
+73 verbose parsed url   path: '^0.1.2',
+73 verbose parsed url   href: '^0.1.2' }
+74 verbose addNamed [ 'findup-sync', '^0.1.2' ]
+75 verbose addNamed [ null, null ]
+76 silly lockFile 66eef810-findup-sync-0-1-2 findup-sync@^0.1.2
+77 verbose lock findup-sync@^0.1.2 /Users/bmackey/.npm/66eef810-findup-sync-0-1-2.lock
+78 verbose cache add [ 'multimatch@^0.1.0', null ]
+79 verbose cache add name=undefined spec="multimatch@^0.1.0" args=["multimatch@^0.1.0",null]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'multimatch@^0.1.0',
+80 verbose parsed url   path: 'multimatch@^0.1.0',
+80 verbose parsed url   href: 'multimatch@^0.1.0' }
+81 verbose cache add name="multimatch" spec="^0.1.0" args=["multimatch","^0.1.0"]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '^0.1.0',
+82 verbose parsed url   path: '^0.1.0',
+82 verbose parsed url   href: '^0.1.0' }
+83 verbose addNamed [ 'multimatch', '^0.1.0' ]
+84 verbose addNamed [ null, null ]
+85 silly lockFile 05ec63db-multimatch-0-1-0 multimatch@^0.1.0
+86 verbose lock multimatch@^0.1.0 /Users/bmackey/.npm/05ec63db-multimatch-0-1-0.lock
+87 info addNameTag [ 'findup-sync', '^0.1.2' ]
+88 info addNameTag [ 'multimatch', '^0.1.0' ]
+89 verbose url raw findup-sync
+90 verbose url resolving [ 'https://registry.npmjs.org/', './findup-sync' ]
+91 verbose url resolved https://registry.npmjs.org/findup-sync
+92 info trying registry request attempt 1 at 19:10:32
+93 verbose etag "A1PRRWUUCC4BVV8XLTJPGUS2U"
+94 http GET https://registry.npmjs.org/findup-sync
+95 verbose url raw multimatch
+96 verbose url resolving [ 'https://registry.npmjs.org/', './multimatch' ]
+97 verbose url resolved https://registry.npmjs.org/multimatch
+98 info trying registry request attempt 1 at 19:10:32
+99 verbose etag "EBL10QZK3ASWO7L6ZYU8ZP8IE"
+100 http GET https://registry.npmjs.org/multimatch
+101 http 304 https://registry.npmjs.org/findup-sync
+102 silly registry.get cb [ 304,
+102 silly registry.get   { date: 'Wed, 19 Mar 2014 19:10:35 GMT',
+102 silly registry.get     server: 'Apache',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     'last-modified': 'Wed, 19 Mar 2014 19:10:31 GMT',
+102 silly registry.get     'cache-control': 'max-age=1',
+102 silly registry.get     etag: '"A1PRRWUUCC4BVV8XLTJPGUS2U"',
+102 silly registry.get     'x-served-by': 'cache-am77-AMS',
+102 silly registry.get     'x-cache': 'HIT',
+102 silly registry.get     'x-cache-hits': '2',
+102 silly registry.get     'x-timer': 'S1395256235.085053682,VS0,VE0',
+102 silly registry.get     vary: 'Accept',
+102 silly registry.get     'content-length': '0',
+102 silly registry.get     'keep-alive': 'timeout=10, max=50',
+102 silly registry.get     connection: 'Keep-Alive' } ]
+103 verbose etag findup-sync from cache
+104 silly lockFile 66eef810-findup-sync-0-1-2 findup-sync@^0.1.2
+105 silly lockFile 66eef810-findup-sync-0-1-2 findup-sync@^0.1.2
+106 verbose about to build /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks
+107 info /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks unbuild
+108 verbose from cache /Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules/load-grunt-tasks/package.json
+109 info preuninstall load-grunt-tasks@0.4.0
+110 info uninstall load-grunt-tasks@0.4.0
+111 verbose true,/Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules,/Users/bmackey/college/Project/App/FeedHenrySenchaBuild/node_modules unbuild load-grunt-tasks@0.4.0
+112 info postuninstall load-grunt-tasks@0.4.0
+113 error Error: No compatible version found: findup-sync@'^0.1.2'
+113 error Valid install targets:
+113 error ["0.1.0","0.1.1","0.1.2","0.1.3"]
+113 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:719:10)
+113 error     at /usr/local/lib/node_modules/npm/lib/cache.js:641:10
+113 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+113 error     at Object.oncomplete (fs.js:107:15)
+114 error If you need help, you may report this log at:
+114 error     <http://github.com/isaacs/npm/issues>
+114 error or email it to:
+114 error     <npm-@googlegroups.com>
+115 error System Darwin 13.1.0
+116 error command "node" "/usr/local/bin/npm" "install" "load-grunt-tasks"
+117 error cwd /Users/bmackey/college/Project/App/FeedHenrySenchaBuild
+118 error node -v v0.10.11
+119 error npm -v 1.2.30
+120 verbose exit [ 1, true ]
