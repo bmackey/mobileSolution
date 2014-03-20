@@ -242,10 +242,10 @@ Ext.define('Xpoit.view.Home', {
                     width: 200,
                     html: '<a>NoteIt! Microblog</a><br /><hr />',
 
-                    llisteners: {
-                        element: 'element',
-                        tap: function() {
-                        Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.Note'));
+                    listeners : {
+                        delegate : 'tab',
+                        tap      : function() {
+                        window.open('https://pure-badlands-7549.herokuapp.com/home');
                         }
                     }
                 },

@@ -26,7 +26,6 @@ Ext.application({
         'Home',
         'Info',
         'Maps',
-        'Note',
         'Project',
         'Search',
         'Student',
