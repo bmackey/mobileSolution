@@ -243,9 +243,14 @@ Ext.define('Xpoit.view.Home', {
                     html: '<a>NoteIt! Microblog</a><br /><hr />',
 
                     listeners : {
-                        delegate : 'tab',
+                        element: 'element',
                         tap      : function() {
-                        window.open('https://pure-badlands-7549.herokuapp.com/home');
+
+                            Ext.Msg.confirm("External Url", "Are you sure you want to leave the app?", function(btn){
+                            if (btn == 'yes'){
+                                    window.open('https://pure-badlands-7549.herokuapp.com/home');   // which page wants to redirect
+                            }
+                            });
                         }
                     }
                 },

@@ -1,6 +1,6 @@
 Ext.define('Xpoit.view.Student', {
     requires:[
-       
+       'Xpoit.view.StudentList'
     ],
     extend: 'Ext.Panel',
     xtype:  'student',
@@ -67,7 +67,16 @@ Ext.define('Xpoit.view.Student', {
 			        	}
   					
   				]
-  			}
+  			},
+  			{
+  				items :[
+  				{	
+  					xtype: 'studentList',
+  					docked: 'bottom'
+  				},
+  				]
+  			},
+  			
   			]
   		}
 

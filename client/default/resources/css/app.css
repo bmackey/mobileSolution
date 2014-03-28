@@ -11264,3 +11264,17 @@ body {
 .backBtn {
   left: -25px !important;
 }
+
+
+/*-----------message box ----------*/
+.x-msgbox .x-button {
+    background-image: none !important;
+    background-color :  #599195 !important; 
+    color: white;
+}
+
+.x-msgbox .x-button-normal {
+    background-image: none !important;
+    background-color : red !important; 
+    color: white;
+}

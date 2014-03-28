@@ -32,7 +32,8 @@ Ext.application({
         'Visit',
         'Navigation',
         'Main',
-        'SlideUp'
+        'SlideUp',
+        'StudentList'
     ],
 
     // Give the Ext.Viewport global instance a custom layout and animation
