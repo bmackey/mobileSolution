@@ -18,8 +18,7 @@ Ext.application({
     ],
 
     controllers: [
-        'Home',
-        'App',
+        'Home'
     ],
    
     views: [
@@ -30,8 +29,6 @@ Ext.application({
         'Search',
         'Student',
         'Visit',
-        'Navigation',
-        'Main',
         'SlideUp',
         'StudentList'
     ],
