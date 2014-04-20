@@ -11249,7 +11249,7 @@ body {
 }
 
 .circle {
-  margin-top: -30px;
+  margin-top: -4px;
 }
 
 .menuIcon {
@@ -11285,6 +11285,12 @@ body {
 }
 .x-toolbar-dark.x-docked-top {
   border:none;
+}
+
+
+.sliding_menu {
+  max-height: 450px !important;
+  top: 150px;
 }
 
 /*-----------message box ----------*/
