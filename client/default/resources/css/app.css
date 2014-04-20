@@ -11266,6 +11266,26 @@ body {
   left: -25px !important;
 }
 
+.slideIcon {
+  margin-right: 10px;
+}
+
+/*-----------list - slide up menu style ----------*/
+.x-list .x-list-item {
+  color: #fff;
+  margin-left: 25%;
+}
+
+.x-list-normal .x-list-item .x-dock-horizontal {
+  border: none;
+}
+
+.x-list-normal .x-list-item.x-list-footer-wrap .x-dock-horizontal {
+  border:none;
+}
+.x-toolbar-dark.x-docked-top {
+  border:none;
+}
 
 /*-----------message box ----------*/
 .x-msgbox .x-button {

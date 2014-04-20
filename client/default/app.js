@@ -30,7 +30,10 @@ Ext.application({
         'Student',
         'Visit',
         'SlideUp',
-        'StudentList'
+        'StudentList',
+        'Main',
+        'FB_Slide_Menu_Container'
+
     ],
 
     // Give the Ext.Viewport global instance a custom layout and animation
@@ -68,8 +71,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('Xpoit.view.Home'));
-        Ext.Viewport.add(Ext.create('Xpoit.view.Viewport'));
+        Ext.Viewport.add(Ext.create('Xpoit.view.FB_Slide_Menu_Container'));
     },
 
     onUpdated: function() {
