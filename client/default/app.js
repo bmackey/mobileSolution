@@ -19,7 +19,7 @@ Ext.application({
 
     controllers: [
         'Home',
-        'App',
+        'Main'
     ],
    
     views: [
@@ -71,8 +71,9 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('Xpoit.view.Home'));
-        Ext.Viewport.add(Ext.create('Xpoit.view.Viewport'));
+        // Ext.Viewport.add(Ext.create('Xpoit.view.Home'));
+        // Ext.Viewport.add(Ext.create('Xpoit.view.Viewport'));
+        Ext.Viewport.add(Ext.create('Xpoit.view.Main'));
     },
 
     onUpdated: function() {

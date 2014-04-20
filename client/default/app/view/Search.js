@@ -36,7 +36,7 @@ Ext.define('Xpoit.view.Search', {
 			        	xtype: 'spacer'
 			        },
 		  			{
-		  				html: '<img class="headerLogo" src="resources/images/homeLogo.png"/>'
+		  				html: '<img class="headerLogo" src="resources/images/homeLogo.png"/>',
 		  			},
   				]
   			},
