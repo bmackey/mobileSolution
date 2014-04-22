@@ -36,10 +36,8 @@ Ext.application({
         'Search',
         'Student',
         'Visit',
-        'SlideUp',
         'StudentList',
         'Main',
-        'FB_Slide_Menu_Container'
 
     ],
 
@@ -78,7 +76,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('Xpoit.view.FB_Slide_Menu_Container'));
+        Ext.Viewport.add(Ext.create('Xpoit.view.Home'));
     },
 
     onUpdated: function() {
