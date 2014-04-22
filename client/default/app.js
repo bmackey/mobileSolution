@@ -22,8 +22,10 @@ Ext.application({
     ],
 
     controllers: [
-        'Home',
-        'Menu'
+    ],
+
+    models: [
+        'Contact'
     ],
    
     views: [

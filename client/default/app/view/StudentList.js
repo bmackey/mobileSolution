@@ -1,5 +1,6 @@
 Ext.define('Xpoit.view.StudentList', {
     extend: 'Ext.data.Model',
+    requires:['Xpoit.model.Contact'],
     xtype: 'studentList',
     config: {
         fields: ['firstName', 'lastName']
