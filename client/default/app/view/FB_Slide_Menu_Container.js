@@ -121,37 +121,45 @@ Ext.define('Xpoit.view.FB_Slide_Menu_Container', {
             },
             {
                 xtype: 'list',
-                itemTpl: '<img src="{imgURL}" class="slideIcon" width="20" height="20">{category_name}',
+                id: 'slideUpMenu',
+                itemTpl: '<img src="{imgURL}" class="slideIcon" width="20" height="20">{category_name}{page}',
                 style:'background-color:#599195;',
                 cls:'myList',
                 data: [
                 {
                     imgURL:'resources/images/icons/search.png',
-                    category_name: 'Search'
+                    category_name: 'Search',
+                    page: 'Search'
                 },
                 {
                     imgURL:'resources/images/icons/student.png',
-                    category_name: 'Student List'
+                    category_name: 'Student List',
+                    page: 'StudentList'
                 },
                 {
                     imgURL:'resources/images/icons/project.png',
-                    category_name: 'Project List'
+                    category_name: 'Project List',
+                    page: 'Project'
                 },
                 {
                     imgURL:'resources/images/icons/map.png',
-                    category_name: 'Location Maps'
+                    category_name: 'Location Maps',
+                    page: 'Maps'
                 },
                 {
                     imgURL:'resources/images/icons/visit.png',
-                    category_name: 'VisitIt'
+                    category_name: 'VisitIt',
+                    page: 'Visit'
                 },
                  {
                     imgURL:'resources/images/icons/note.png',
-                    category_name: 'NoteItMicroblog'
+                    category_name: 'NoteItMicroblog',
+                    page: 'Blog'
                 },
                 {
                     imgURL:'resources/images/icons/info.png',
                     category_name: 'Information',
+                    page: 'Info'
                 },
                 ]
             }

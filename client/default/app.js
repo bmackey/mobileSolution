@@ -18,7 +18,8 @@ Ext.application({
     ],
 
     controllers: [
-        'Home'
+        'Home',
+        'Menu'
     ],
    
     views: [
