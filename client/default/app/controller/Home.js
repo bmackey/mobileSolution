@@ -2,16 +2,21 @@ Ext.define('Xpoit.controller.Home', {
     extend: 'Ext.app.Controller',
 
     config: {
+
+        refs : {
+            searchBtn: '#searchBtn',
+        },
+
         control: {
             'searchBtn': {
                 // On the tap event, call onNewTap
                 tap: 'searchView'
             },
-            'studentBrn': {
+            'studentBtn': {
                 // On the tap event, call onNewTap
                 tap: 'studentView'
             }
-        }
+        },
     },
 
     launch: function() {
@@ -24,7 +29,9 @@ Ext.define('Xpoit.controller.Home', {
     searchView: function() {
         // When the user taps on the button, create a new reference of our New view, and set it as the active
         // item of Ext.Viewport
-        Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.Search'));
+       Ext.Viewport.setActiveItem({xtype:'search'});
+       console.log(Ext.Viewport.getActiveItem().xtype);
+
     },
 
     studentView: function() {

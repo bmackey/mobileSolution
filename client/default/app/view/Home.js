@@ -60,12 +60,12 @@ Ext.define('Xpoit.view.Home', {
                     width: 200,
                     html: 'Search<br /><hr />',
 
-                    listeners: {
-                        element: 'element',
-                        tap: function() {
-                        Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.Search'));
+                        listeners: {
+                            element: 'element',
+                            tap: function() {
+                            Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.Search'));
+                            }
                         }
-                    }
                 },
                 {
                     flex:1

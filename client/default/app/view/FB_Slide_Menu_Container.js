@@ -122,24 +122,22 @@ Ext.define('Xpoit.view.FB_Slide_Menu_Container', {
             {
                 xtype: 'list',
                 id: 'slideUpMenu',
-                itemTpl: '<img src="{imgURL}" class="slideIcon" width="20" height="20">{category_name}{page}',
+                itemTpl: '<img src="{imgURL}" class="slideIcon" width="20" height="20">{category_name}',
                 style:'background-color:#599195;',
                 cls:'myList',
                 data: [
                 {
                     imgURL:'resources/images/icons/search.png',
                     category_name: 'Search',
-                    page: 'Search'
+                    
                 },
                 {
                     imgURL:'resources/images/icons/student.png',
-                    category_name: 'Student List',
-                    page: 'StudentList'
+                    category_name: 'Student List'
                 },
                 {
                     imgURL:'resources/images/icons/project.png',
-                    category_name: 'Project List',
-                    page: 'Project'
+                    category_name: 'Project List'
                 },
                 {
                     imgURL:'resources/images/icons/map.png',
@@ -148,18 +146,15 @@ Ext.define('Xpoit.view.FB_Slide_Menu_Container', {
                 },
                 {
                     imgURL:'resources/images/icons/visit.png',
-                    category_name: 'VisitIt',
-                    page: 'Visit'
+                    category_name: 'VisitIt'
                 },
                  {
                     imgURL:'resources/images/icons/note.png',
-                    category_name: 'NoteItMicroblog',
-                    page: 'Blog'
+                    category_name: 'NoteIt Microblog'
                 },
                 {
                     imgURL:'resources/images/icons/info.png',
-                    category_name: 'Information',
-                    page: 'Info'
+                    category_name: 'Information'
                 },
                 ]
             }
