@@ -22,6 +22,7 @@ Ext.application({
     ],
 
     controllers: [
+        'Main'
     ],
 
     models: [

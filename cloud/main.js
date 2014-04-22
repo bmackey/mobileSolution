@@ -1,107 +1,46 @@
 /*
- * Stocks
+ Inserts an object (document) into a collection in MongoDB
+ @param params.insert an object to insert into your database
+ @param params.collection the collection to insert it into
  */
-function getStockInfo(param) {
-  return stock.getStockInfo(param.name);
-}
 
-/*
- * Twitter
- */
-function getTweets() {
-  var username   = 'feedhenry';
-  var num_tweets = 10;
-  var url        = 'http://search.twitter.com/search.json?q=' + username;
+var MongoClient = require('mongodb').MongoClient;
+var format = require('util').format;
 
-  var response = $fh.web({
-    url: url,
-    method: 'GET',
-    allowSelfSignedCert: true
-  });
-  return {'data': $fh.parse(response.body).results};
-}
 
-/*
- * Payment
- */ 
-function payment() {
-  var cardType   = $params.cardType;
-  var cardNumber = $params.cardNumber;
-  var url = "http://www.webservicex.net/CreditCard.asmx/ValidateCardNumber?cardType=" + cardType + "&cardNumber=" + cardNumber;
+var user = "bmackey",
+  password = "doireann",
+  upString = (typeof user === 'string' && typeof password === 'string') ? user + ":" + password : "",
+  database = "xpoit",
+  host = "ds039487.mongolab.com:39487";
 
-  return $fh.web({
-    url: url,
-    method: 'GET'
-  });
-}
+exports.findAll = function(params, cb) {
 
-/*
- * Maps
- */
-// Cache points for 10 seconds
-var CACHE_TIME = 30;
-var MARKERS = {
-  locations: [
-    {
-      lat: '52.245671',
-      lon: '-7.080002'
-    },
-    {
-      lat: '52.257861',
-      lon: '-7.136993'
+  console.log("I am here!!!");
+
+  MongoClient.connect('mongodb://' + upString + '@' + host + '/' + database, function(err, db) {
+    if (err) {
+      return cb(err);
     }
-  ]
+
+    var collection = db.collection("records");
+    collection.find().sort({
+      project: 1
+    }).toArray(
+      function(error, items) {
+        var studentList = [];
+        for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          studentList.push({
+            fname: item.fname,
+            lname: item.lname,
+            project: item.project
+          });
+        }
+        if (studentList) {
+          return cb(error, studentList);
+        }
+
+      });
+  });
 };
-
-function getCachedPoints() {
-  var ret = $fh.cache({
-    "act": "load",
-    "key": "points"
-  });
-  return ret.val;
-}
-
-function cachePoints(hash, data) {
-  var obj = {
-    "hash": hash,
-    "data": data,
-    "cached": true
-  };
-  $fh.cache({
-    "act": "save",
-    "key": "points",
-    "val": obj,
-    "expire": CACHE_TIME
-  });
-}
-
-function getPoints() {
-  var response = {};
-  var cache    = getCachedPoints();
-
-  if (cache.length === 0) {
-    var data = MARKERS;
-    var hash = $fh.hash({
-      algorithm: 'MD5',
-      text: $fh.stringify(data)
-    });
-
-    // Cache the data
-    cachePoints(hash, data);
-
-    // Build the response
-    response = {'data': data, 'hash':hash, 'cached':false};
-  } else {
-    // Parse the cached data
-    cache = $fh.parse(cache);
-
-    if( $params.hash && $params.hash === cache.hash ) {
-      // Client data is up to date
-      response = {'hash':$params.hash, 'cached':true};
-    } else {
-      // Hash value from client missing or incorrect, return cached cloud data
-      response = cache;
-    }
-  }
-  return response;
-}
