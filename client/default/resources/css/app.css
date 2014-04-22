@@ -7151,10 +7151,8 @@ audio {
 /* line 50, ../themes/stylesheets/sencha-touch/default/_mixins.scss */
 .x-button.x-button-pressing, .x-button.x-button-pressing:after, .x-button.x-button-pressed, .x-button.x-button-pressed:after, .x-button.x-button-active, .x-button.x-button-active:after, .x-toolbar .x-button.x-button-pressing, .x-toolbar .x-button.x-button-pressing:after, .x-toolbar .x-button.x-button-pressed, .x-toolbar .x-button.x-button-pressed:after, .x-toolbar .x-button.x-button-active, .x-toolbar .x-button.x-button-active:after {
   background-image: none;
-  background-color: #c4c4c4;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ababab), color-stop(10%, #b8b8b8), color-stop(65%, #c4c4c4), color-stop(100%, #c6c6c6));
-  background-image: -webkit-linear-gradient(top, #ababab, #b8b8b8 10%, #c4c4c4 65%, #c6c6c6);
-  background-image: linear-gradient(top, #ababab, #b8b8b8 10%, #c4c4c4 65%, #c6c6c6);
+  background-color: none;
+  background-image: none;
 }
 /* line 66, ../themes/stylesheets/sencha-touch/default/widgets/_buttons.scss */
 .x-button .x-button-icon {
@@ -8308,10 +8306,8 @@ audio {
 /* line 50, ../themes/stylesheets/sencha-touch/default/_mixins.scss */
 .x-toolbar-dark .x-button.x-button-pressing, .x-toolbar-dark .x-button.x-button-pressing:after, .x-toolbar-dark .x-button.x-button-pressed, .x-toolbar-dark .x-button.x-button-pressed:after, .x-toolbar-dark .x-button.x-button-active, .x-toolbar-dark .x-button.x-button-active:after, .x-toolbar .x-toolbar-dark .x-button.x-button-pressing, .x-toolbar .x-toolbar-dark .x-button.x-button-pressing:after, .x-toolbar .x-toolbar-dark .x-button.x-button-pressed, .x-toolbar .x-toolbar-dark .x-button.x-button-pressed:after, .x-toolbar .x-toolbar-dark .x-button.x-button-active, .x-toolbar .x-toolbar-dark .x-button.x-button-active:after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing, .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing:after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressed, .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressed:after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-active, .x-toolbar-dark .x-field-select .x-component-outer.x-button-active:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressed, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressed:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-active, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-active:after, .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-pressing, .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-pressing:after, .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-pressed, .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-pressed:after, .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-active, .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-active:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-pressing, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-pressing:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-pressed, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-pressed:after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-active, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer:before.x-button-active:after {
   background-image: none;
-  background-color: #0f517e;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0a3351), color-stop(10%, #0c4267), color-stop(65%, #0f517e), color-stop(100%, #0f5280));
-  background-image: -webkit-linear-gradient(top, #0a3351, #0c4267 10%, #0f517e 65%, #0f5280);
-  background-image: linear-gradient(top, #0a3351, #0c4267 10%, #0f517e 65%, #0f5280);
+  background-color: none;
+  background-image: none;
 }
 /* line 160, ../themes/stylesheets/sencha-touch/default/widgets/_toolbar.scss */
 .x-toolbar-dark .x-label, .x-toolbar-dark .x-form-label {
@@ -8715,12 +8711,10 @@ audio {
 /* line 128, ../themes/stylesheets/sencha-touch/default/widgets/_list.scss */
 .x-list .x-list-item.x-item-selected .x-dock-horizontal {
   background-image: none;
-  background-color: #006bb6;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0398ff), color-stop(3%, #007ad0), color-stop(100%, #005c9d));
-  background-image: -webkit-linear-gradient(top, #0398ff, #007ad0 3%, #005c9d);
-  background-image: linear-gradient(top, #0398ff, #007ad0 3%, #005c9d);
+  background-color: none;
+  background-image: none;
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
+  text-shadow: none;
 }
 /* line 134, ../themes/stylesheets/sencha-touch/default/widgets/_list.scss */
 .x-list .x-list-item > .x-dock {
@@ -8796,8 +8790,8 @@ audio {
 }
 /* line 219, ../themes/stylesheets/sencha-touch/default/widgets/_list.scss */
 .x-list-normal .x-list-item.x-item-selected .x-dock-horizontal {
-  border-top-color: #006bb6;
-  border-bottom: 1px solid #003e6a;
+  border-top: none;
+  border-bottom: none;
 }
 
 /* line 227, ../themes/stylesheets/sencha-touch/default/widgets/_list.scss */
