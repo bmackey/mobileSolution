@@ -5,18 +5,7 @@ Ext.define('Xpoit.store.RecordStore', {
         model: 'Xpoit.model.RecordModel',
         autoLoad: true,
         sorters: 'lname',
-        grouper: function(record) {
-            return record.get('fullname1')[0];
-        },
-        proxy: {
-            type: 'ajax',
-            noCache: false,
-            enablePagingParams: false,
-            url: 'resources/json/cust_bunzl.json',
-            reader: {
-                type: 'json',
-                rootProperty: 'customer'
-            }
-        }
+
+
     }
 });

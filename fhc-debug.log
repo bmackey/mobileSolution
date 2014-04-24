@@ -26,15 +26,15 @@ silly headers   'User-Agent': 'FHC/0.11.1-330 darwin/13.1.0',
 silly headers   'content-type': 'application/json',
 silly headers   'content-length': 48 }
 silly getProxy null
-silly response headers { date: 'Tue, 22 Apr 2014 20:32:24 GMT',
+silly response headers { date: 'Thu, 24 Apr 2014 12:43:10 GMT',
 silly response headers   expires: 'Sat, 6 May 1995 12:00:00 GMT',
 silly response headers   'cache-control': 'no-store, no-cache, must-revalidate',
 silly response headers   p3p: 'CP="ALL ADM DEV PSAi COM OUR OTRo STP IND ONL" policyref="/box/p3p.xml"',
 silly response headers   pragma: 'no-cache',
-silly response headers   'last-modified': 'Tue, 22 Apr 2014 20:32:24 GMT',
-silly response headers   etag: '"Z1xEugn74r9i3POtdGUQUF"',
+silly response headers   'last-modified': 'Thu, 24 Apr 2014 12:43:10 GMT',
+silly response headers   etag: '"ipY83x496aYzlwmy3gcPPV"',
 silly response headers   'content-type': 'application/json;charset=UTF-8',
-silly response headers   'content-length': '35',
+silly response headers   'content-length': '1523',
 silly response headers   vary: 'Accept-Encoding',
 silly response headers   connection: 'close' }
 silly packages Packages list: ["default"]
