@@ -2,3 +2,4 @@ node_modules
 .sencha
 build
 temp
+fhc-debug.log
