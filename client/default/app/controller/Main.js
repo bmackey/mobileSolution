@@ -17,12 +17,12 @@ Ext.define('Xpoit.controller.Main', {
 		},
 	},
 
-	showProfile: function() {
+	showProfile: function(list, record) {
 		console.log('tapped expand student info');
-		//Ext.getCmp('studentPanel').show();
-		// this.getMain().push({
-		// 	xtype: 'studentPanel'
-		// });
+		// Ext.getCmp('studentPanel').show();
+		this.getMain().push({
+			xtype: 'studentPanel'
+		});
 	},
 	showProject: function() {
 		console.log('tapped expand project');
@@ -31,6 +31,7 @@ Ext.define('Xpoit.controller.Main', {
 		// });
 	},
 	init: function() {
+
 		$fh.act({
 			"act": "findAll"
 		}, function(res) {

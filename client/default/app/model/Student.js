@@ -8,6 +8,12 @@ Ext.define('Xpoit.model.Student', {
 		}, {
 			name: 'lname',
 			type: 'string'
+		}, {
+			name: 'course',
+			type: 'string'
+		}, {
+			name: 'email',
+			type: 'string'
 		}]
 	}
 })

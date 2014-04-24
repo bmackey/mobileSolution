@@ -18,3 +18,170 @@
 
 // Your custom code goes here...
 
+/*-------------- Home Style --------------*/
+.homeLogo {
+  width: 200px; 
+  padding-top: 40px;
+}
+
+.homeMenu {
+  display: inline-block;
+}
+
+.icons {
+  width: 30px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+
+.homeIcons {
+  color:#fff;
+  float: right;
+}
+
+.triangle {
+  width:85px;
+}
+
+
+hr { 
+  display: block; 
+  height: 1px;
+    border: 0; 
+    border-top: 1px solid #828383;
+    margin: .5em 0; 
+    padding: 0; 
+  }
+
+html {
+
+}
+
+body {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+}
+
+.x-toolbar-dark {
+  background-color: #fff;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  border-color: #fff;
+  -webkit-box-shadow: rgba(0,0,0,0.4) 2px 2px 1px 2px; 
+  overflow: visible;
+}
+
+.x-toolbar-dark .x-button {
+  background-color: transparent;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  border: none;
+  border-top-color: transparent;
+  color: transparent;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.x-button img {
+  width: 30%;
+  height: 30%;
+}
+
+.x-toolbar-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  line-height: 2.1em;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: lighter;
+  font-variant:small-caps;
+  color: #6d6e71;
+}
+
+.x-toolbar-dark .x-title {
+  color: #6d6e71;
+  text-shadow: none;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: lighter;
+  font-variant:small-caps;
+
+}
+
+.x-toolbar-dark .x-toolbar-title {
+  color: #6d6e71;
+}
+
+.headerLogo {
+  width: 50px !important;
+}
+
+.btm-nav {
+  background-color: #599195;
+  text-align: center;
+}
+
+.circle {
+  margin-top: -4px;
+}
+
+.menuIcon {
+  width: 12% !important;
+  margin-bottom: 40px;
+  margin-top: -40px;
+}
+
+.menu {
+  height: 65%;
+}
+
+.backBtn {
+  left: -25px !important;
+}
+
+.slideIcon {
+  margin-right: 10px;
+}
+
+/*-----------list - slide up menu style ----------*/
+.x-list .x-list-item {
+  color: #fff;
+/*  margin-left: 25%;*/
+}
+
+.x-list-normal .x-list-item .x-dock-horizontal {
+  border: none;
+}
+
+.x-list-normal .x-list-item.x-list-footer-wrap .x-dock-horizontal {
+  border:none;
+}
+.x-toolbar-dark.x-docked-top {
+  border:none;
+}
+
+
+.sliding_menu {
+  max-height: 450px !important;
+  top: 150px;
+}
+
+/*-----------message box ----------*/
+.x-msgbox .x-button {
+    background-image: none !important;
+    background-color :  #599195 !important; 
+    color: white;
+}
+
+.x-msgbox .x-button-normal {
+    background-image: none !important;
+    background-color : red !important; 
+    color: white;
+}
