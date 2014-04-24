@@ -1,19 +1,16 @@
 Ext.define('Xpoit.view.StudentList', {
-  extend: 'Ext.Panel',
-  xtype: 'studentList',
+  extend: 'Ext.List',
+  xtype: 'studentListPanel',
   id: 'studentList',
   cls: 'studentList',
+  style: 'background-color:#6d6e71;',
   config: {
-    layout: 'vbox',
-    items: [{
-      xtype: 'spacer',
-      height: '50px'
-    }, {
-      xtype: 'list',
-      id: 'studentListItem',
-      flex: 1,
-      store: 'RecordStore',
-      itemTpl: '{fname}{lanme}',
-    }]
+    title: 'Student List',
+    grouped: true,
+    indexBar: true,
+    itemTpl: '{fname} {lname}',
+    store: 'Students',
+
+    onItemDisclosure: true
   }
 });

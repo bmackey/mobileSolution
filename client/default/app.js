@@ -23,12 +23,12 @@ Ext.application({
 
     controllers: [
         'Main',
-        'StudentList',
-        'Search'
     ],
 
     models: [
-        'RecordModel'
+        'RecordModel',
+        'Student',
+        'Project'
     ],
 
     views: [
@@ -36,6 +36,8 @@ Ext.application({
         'Info',
         'Maps',
         'Project',
+        'ProjectList',
+        'ProjectMain',
         'Search',
         'Student',
         'Visit',
@@ -45,7 +47,8 @@ Ext.application({
     ],
 
     stores: [
-        'RecordStore'
+        'Students',
+        'Projects'
     ],
 
     // Give the Ext.Viewport global instance a custom layout and animation

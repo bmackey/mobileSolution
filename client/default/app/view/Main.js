@@ -1,28 +1,14 @@
 Ext.define('Xpoit.view.Main', {
-    extend: 'Ext.tab.Panel',
-    xtype: 'main',
+    extend: 'Ext.navigation.View',
+    xytpe: 'mainPanel',
+    id: 'mainPanel',
     requires: [
-        'Ext.TitleBar',
-        'Ext.navigation.View',
-        'Ext.dataview.List'
-        
+        'Xpoit.view.Student',
+        'Xpoit.view.StudentList'
     ],
     config: {
-        tabBarPosition: 'bottom',
-        layout: {
-            animation: false
-        },
-        items: [
-            {
-                xtype: 'fb_slide_menu_container',
-                title: 'FB Slide',
-                iconCls: 'home'
-            },
-            {
-                title: 'Woohoo',
-                iconCls: 'favorites',
-                html: 'Woohoo'
-            }
-        ]
+        items: [{
+            xtype: 'studentListPanel'
+        }]
     }
 });

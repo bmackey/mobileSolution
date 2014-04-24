@@ -91,7 +91,7 @@ Ext.define('Xpoit.view.Home', {
                         listeners: {
                             element: 'element',
                             tap: function() {
-                                Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.Student'));
+                                Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.Main'));
                             }
                         }
                     }, {
@@ -123,7 +123,7 @@ Ext.define('Xpoit.view.Home', {
                     listeners: {
                         element: 'element',
                         tap: function() {
-                            Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.Project'));
+                            Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.ProjectMain'));
                         }
                     }
                 }, {

@@ -2,9 +2,34 @@ Ext.define('Xpoit.controller.Main', {
 	extend: 'Ext.app.Controller',
 
 	config: {
-
+		ref: {
+			main: 'mainPanel',
+			project: 'projectPanel',
+			studentPanel: 'studentPanel'
+		},
+		control: {
+			'#studentList': {
+				disclose: 'showProfile'
+			},
+			'#projectList': {
+				disclose: 'showProject'
+			},
+		},
 	},
 
+	showProfile: function() {
+		console.log('tapped expand student info');
+		//Ext.getCmp('studentPanel').show();
+		// this.getMain().push({
+		// 	xtype: 'studentPanel'
+		// });
+	},
+	showProject: function() {
+		console.log('tapped expand project');
+		// this.getMain().push({
+		// 	xtype: 'projectPanel'
+		// });
+	},
 	init: function() {
 		$fh.act({
 			"act": "findAll"
@@ -26,13 +51,17 @@ Ext.define('Xpoit.controller.Main', {
 				});
 
 				console.log(records[i]);
-				localStorage.setItem('records', records);
+
+
+				var studentStore = Ext.getStore('Students');
+				studentStore.add(records[i]);
+
+				var projectStore = Ext.getStore('Projects');
+				projectStore.add(records[i]);
+
 			}
 		}, function(msg, err) {
 			console.log('Could not get stuff', msg);
 		})
-
 	}
-
-
 });
