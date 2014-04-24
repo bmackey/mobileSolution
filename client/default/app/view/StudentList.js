@@ -1,8 +1,8 @@
 Ext.define('Xpoit.view.StudentList', {
   extend: 'Ext.Panel',
-  xtype: 'studentListView',
-  id: 'studentListView',
-  cls: 'studentListView',
+  xtype: 'studentList',
+  id: 'studentList',
+  cls: 'studentList',
   config: {
     layout: 'vbox',
     items: [{
@@ -10,7 +10,7 @@ Ext.define('Xpoit.view.StudentList', {
       height: '50px'
     }, {
       xtype: 'list',
-      id: 'studentList',
+      id: 'studentListItem',
       flex: 1,
       store: 'RecordStore',
       itemTpl: '{fname}{lanme}',

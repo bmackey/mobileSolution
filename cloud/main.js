@@ -32,9 +32,15 @@ exports.findAll = function(params, cb) {
         for (var i = 0; i < items.length; i++) {
           var item = items[i];
           studentList.push({
+            project: item.project,
             fname: item.fname,
             lname: item.lname,
-            project: item.project
+            email: item.email,
+            course: item.course,
+            title: item.title,
+            commercial: item.commercial,
+            desc: item.description,
+            disciplines: item.disciplines
           });
         }
         if (studentList) {

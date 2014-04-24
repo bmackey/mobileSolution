@@ -22,11 +22,12 @@ Ext.application({
     ],
 
     controllers: [
-        'Main'
+        'Main',
+        'StudentList',
+        'Search'
     ],
 
     models: [
-        'Contact',
         'RecordModel'
     ],
 
