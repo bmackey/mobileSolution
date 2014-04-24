@@ -8,15 +8,6 @@ Ext.define('Xpoit.view.ProjectMain', {
     ],
     config: {
         items: [{
-            backButton: {
-                ui: 'back',
-                hidden: false,
-                handler: function() {
-                    // Ext.getCmp('searchPanel').destroy();
-                    Ext.Viewport.setActiveItem(Ext.create('Xpoit.view.Home'));
-                }
-            },
-        }, {
             xtype: 'projectListPanel'
         }]
     }

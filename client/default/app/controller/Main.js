@@ -20,15 +20,17 @@ Ext.define('Xpoit.controller.Main', {
 	showProfile: function(list, record) {
 		console.log('tapped expand student info');
 		// Ext.getCmp('studentPanel').show();
-		this.getMain().push({
-			xtype: 'studentPanel'
+		Ext.ComponentManager.get('mainPanel').push({
+			xtype: 'studentPanel',
+			data: record.data
 		});
 	},
-	showProject: function() {
+	showProject: function(list, record) {
 		console.log('tapped expand project');
-		// this.getMain().push({
-		// 	xtype: 'projectPanel'
-		// });
+		Ext.ComponentManager.get('projectMainPanel').push({
+			xtype: 'projectPanel',
+			data: record.data
+		});
 	},
 	init: function() {
 
@@ -47,7 +49,7 @@ Ext.define('Xpoit.controller.Main', {
 					course: item.course,
 					title: item.title,
 					commercial: item.commercial,
-					desc: item.description,
+					desc: item.desc,
 					disciplines: item.disciplines
 				});
 

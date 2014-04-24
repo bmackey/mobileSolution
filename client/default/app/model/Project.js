@@ -11,6 +11,12 @@ Ext.define('Xpoit.model.Project', {
 		}, {
 			name: 'commercial',
 			type: 'string'
+		}, {
+			name: 'desc',
+			type: 'string'
+		}, {
+			name: 'disciplines',
+			type: 'string'
 		}]
 	}
 })

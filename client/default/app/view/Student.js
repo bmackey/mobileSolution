@@ -3,10 +3,12 @@ Ext.define('Xpoit.view.Student', {
 	xtype: 'studentPanel',
 
 	config: {
+		title: 'Details',
 		styleHtmlContent: true,
 		scrollable: 'vertical',
-		title: 'Student Profile',
-		html: 'StudentProfile Goes Here'
+		tpl: [
+			'{fname} {lname} {email} {course}'
+		]
 	}
 
 });

@@ -6,7 +6,9 @@ Ext.define('Xpoit.view.Project', {
 		styleHtmlContent: true,
 		scrollable: 'vertical',
 		title: 'Project Profile',
-		html: 'Project Profile Goes Here'
+		tpl: [
+			'Project No: {project} <br />Project Title: {title} <br />Commercial Title: {commercial} <br />Project Description: {desc} <br />Disciplines Used: {disciplines}'
+		]
 	}
 
 });
