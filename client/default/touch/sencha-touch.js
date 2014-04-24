@@ -14488,7 +14488,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.scroll.indicator.Throttled": [],
   "Ext.fx.animation.SlideOut": [],
   "Ext.device.connection.Sencha": [],
-  "Ext.fx.layout.card.Pop": [],
+    // "Ext.fx.layout.card.Pop": [],
   "Ext.chart.axis.layout.Discrete": [],
   "Ext.data.Field": [],
   "Ext.chart.series.Gauge": [],
@@ -14497,7 +14497,7 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.data.StoreMgr",
     "Ext.StoreManager"
   ],
-  "Ext.fx.animation.PopOut": [],
+    // "Ext.fx.animation.PopOut": [],
   "Ext.chart.label.Callout": [],
   "Ext.device.push.Abstract": [],
   "Ext.util.DelayedTask": [],
@@ -14629,9 +14629,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.Container": [
     "Ext.lib.Container"
   ],
-  "Ext.fx.animation.Pop": [
-    "Ext.fx.animation.PopIn"
-  ],
+    // "Ext.fx.animation.Pop": [
+    //   "Ext.fx.animation.PopIn"
+    // ],
   "Ext.draw.sprite.Circle": [],
   "Ext.fx.layout.card.Reveal": [],
   "Ext.fx.layout.card.Cover": [],
@@ -15132,9 +15132,9 @@ Ext.ClassManager.addNameAlternateMappings({
     "animation.slideOut"
   ],
   "Ext.device.connection.Sencha": [],
-  "Ext.fx.layout.card.Pop": [
-    "fx.layout.card.pop"
-  ],
+    // "Ext.fx.layout.card.Pop": [
+    //   "fx.layout.card.pop"
+    // ],
   "Ext.chart.axis.layout.Discrete": [
     "axisLayout.discrete"
   ],
@@ -15145,9 +15145,9 @@ Ext.ClassManager.addNameAlternateMappings({
     "series.gauge"
   ],
   "Ext.data.StoreManager": [],
-  "Ext.fx.animation.PopOut": [
-    "animation.popOut"
-  ],
+    // "Ext.fx.animation.PopOut": [
+    //   "animation.popOut"
+    // ],
   "Ext.chart.label.Callout": [],
   "Ext.device.push.Abstract": [],
   "Ext.util.DelayedTask": [],
@@ -15324,10 +15324,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.Container": [
     "widget.container"
   ],
-  "Ext.fx.animation.Pop": [
-    "animation.pop",
-    "animation.popIn"
-  ],
+    // "Ext.fx.animation.Pop": [
+    //   "animation.pop",
+    //   "animation.popIn"
+    // ],
   "Ext.draw.sprite.Circle": [
     "sprite.circle"
   ],
